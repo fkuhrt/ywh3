@@ -14,4 +14,4 @@ jobs:
         ftp-server: home153535813.1and1-data.host:22
         ftp-username: p39767349
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-git-ftp-args: --insecure # if your certificate is setup correctly this can be removed
+        git-ftp-args: --insecure # if your certificate is setup correctly this can be removed
