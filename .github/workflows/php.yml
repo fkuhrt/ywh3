@@ -15,3 +15,5 @@ jobs:
         ftp-username: p39767349
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         git-ftp-args: --insecure # if your certificate is setup correctly this can be removed
+        METHOD: sftp
+        PORT: 22
